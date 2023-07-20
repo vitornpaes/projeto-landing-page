@@ -75,7 +75,7 @@ As empresas fictícias vão desde um banco digital a uma empresa de seguros, pas
   
   [Logo aqui](https://labenu.notion.site/Projeto-Landing-Page-WFS-7b37ff1460e741b1b5e1e049d7df9d69)
    </details>
-O enunciado completo está no Sistema de Estudante, na sessão de Projetos https://estudante.labenu.com.br/conteudos/tecnico/projetos
+O enunciado completo está no Sistema do Estudante, na sessão de Projetos.
 
 ## Lista de requisitos
 A sua Landing Page deve conter:
@@ -124,9 +124,17 @@ A sua Landing Page deve conter:
 ### Instruções de entrega
 
 ![image](https://user-images.githubusercontent.com/71137294/227530610-a9172cf5-a346-49ec-ac76-e95b207f97b4.png)
-1.  [Crie o surge](https://vimeo.com/534588331/cb38435bad?embedded=true&source=vimeo_logo&owner=108074337) do seu projeto e pegue o link da publicação(deploy);
-2.  Adicione o link do surge no README do seu projeto;
-3.  Tire print das páginas do seu projeto, na versão desktop e mobile e cole no README;
-4.  Abra um novo Pull Request (PR) com a frase **PR para correção**. Caso não saiba como fazê-lo, assista a esse [vídeo](https://www.canva.com/design/DAFY4nS5W2c/t92uFMR61YtmA7bCwj2S1Q/watch).
-5.  Envie o link do seu PR e do surge no [formulário de entrega](https://forms.gle/nrh5KpDhAMwXBjC29).
+
+1.  [**Crie o surge**](https://vimeo.com/534588331/cb38435bad?embedded=true&source=vimeo_logo&owner=108074337)  do seu projeto e pegue o link da publicação (deploy).
+2. [**Edite o README**](https://www.youtube.com/watch?v=1QKwP0SJK-c&t=3s) do seu projeto:
+    1.  Remova o texto existente no README.
+    2.  Adicione o título do seu projeto.
+    3.  Inclua o link do Surge para acesso ao projeto.
+    4.  Descreva as funcionalidades principais do projeto.
+    5.  Adicione capturas de tela das páginas do projeto nas versões desktop e mobile, e insira-as no README.
+
+1.  Faça um commit com a frase **“[documentação] criei a descrição do projeto”**.
+2.  Abra um novo Pull Request (PR) com a frase **“PR para correção”**.
+3.  Clique em **Merge Pull Request** para enviar todas as suas alterações para a branch main.
+4.  Copie o link do Pull Request e o envie o link do seu PR no [**formulário de entrega**](https://docs.google.com/forms/d/e/1FAIpQLSfziutw6aVuh1sCuG14L5zn-2ds80yMkrgUWhe_aZRaixopdw/viewform).
 
