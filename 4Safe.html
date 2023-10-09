@@ -4,20 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>4Safe Seguros</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <h2>4Safe</h2>
-      <button type="button">Escolha o idoma: <span>Portugues</span></button>
+      <a id="language-toggle">
+        Escolha o idioma:
+        <span id="language-span">Português</span>
+      </a>
     </header>
     <main>
-      <p>
-        A 4Safe é uma empresa focada na digitalização dos produtos de
-        seguridade. Sua proposta é oferecer seguros de vida, de carro e outros
-        para clientes jovens que não gostam da burocracia das seguradoras
-        tradicionais.
-      </p>
-      <button type="button">Contrate agora!</button>
+      <img src="assets/4safe.png" alt="logo-4safe" />
+
+      <div class="main__description-container">
+        <p>
+          A 4Safe é uma empresa focada na digitalização dos produtos de
+          seguridade. Sua proposta é oferecer seguros de vida, de carro e outros
+          para clientes jovens que não gostam da burocracia das seguradoras
+          tradicionais.
+        </p>
+        <button type="button" class="hire-button">Contrate agora!</button>
+      </div>
     </main>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="contact">
+          <div class="first-contact">
+            <div class="link-box">
+              <a
+                href="https://www.linkedin.com/in/vitor-noe-b72023281/"
+                target="_blank"
+                title="Vitor"
+                rel="noreferrer"
+              >
+                <p>in</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>© 2023 Desenvolvido por Vitor Paes.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
