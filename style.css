@@ -18,7 +18,7 @@ body,
 input,
 header,
 button {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   font-size: 1rem;
   color: var(--white);
@@ -34,6 +34,7 @@ header {
   display: flex;
   justify-content: space-around;
   margin-top: 1rem;
+  
 }
 
 body {
@@ -42,11 +43,17 @@ body {
 }
 
 main {
-  width: 90%;
-  margin: 18rem 2.5rem;
+  width: 100%;
+  margin: 280px 0;
+
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   text-align: justify;
+}
+
+main p {
+  max-width: 60%;
+  margin-bottom: 20px;
 }
 
 .hire-button {
@@ -83,7 +90,12 @@ img {
   margin-right: 1rem;
 }
 
-/*---------Footer------------*/
+a {
+  cursor: pointer;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
 
 footer {
   background: #212529;
@@ -131,16 +143,52 @@ footer a:hover {
 .copyright {
   color: #555;
   font-size: 0.9em;
-  margin-top: 10px;
 }
 
-@media (max-width: 700px){
-  main{
+/*------------------Contact page---------------------*/
+
+.form{
+  height: 908px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form-conteiner{
+  margin-bottom: 200px;
+}
+
+.form-button{
+  position: relative;
+  left: 30px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+.contact-input{
+  color: black;
+
+}
+
+
+@media (max-width: 700px) {
+  main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin: 10.8rem 2.5rem;
+    margin: 10rem 2.5rem;
+  }
+
+  main p {
+    max-width: 100%;
+    margin-bottom: 20px;
   }
 }
